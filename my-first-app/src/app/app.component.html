@@ -1,0 +1,18 @@
+<h1>
+  Hola Mundo {{ title }}
+</h1>
+<button (click)="changeTitle()">
+  Change title
+</button>
+<ul>
+  <li>
+    <a routerLink="/">Home</a>
+  </li>
+  <li>
+    <a routerLink="/Products">Products</a>
+  </li>
+  <li>
+    <a routerLink="/Contact">Contact</a>
+  </li>
+</ul>
+<router-outlet></router-outlet>
